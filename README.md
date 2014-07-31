@@ -12,6 +12,6 @@ Copy the .bash file somewhere, like your desktop
 
 Make it executable (chmod +x shutdown.bash or right-click->properties)
 
-Execute it (double click or ./shutdown.bash)
+Execute it (./shutdown.bash)
 
 Go to sleep, cya tomorrow!
