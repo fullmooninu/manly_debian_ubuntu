@@ -1,8 +1,8 @@
 # Manly Ubuntu Shutdown Script
 
 ### A nice way to shutdown your Ubuntu system.
-######* Make it update and clean itself and then shutdown
-######* Works on all Ubuntu flavors, Mint and maybe Debian
+* ###### Make it update and clean itself and then shutdown
+* ###### Works on all Ubuntu flavors, Mint and maybe Debian
 
 
 ### Usage: 
