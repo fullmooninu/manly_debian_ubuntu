@@ -1,17 +1,16 @@
-manlyubuntushutdownscript
-=========================
+## manlyubuntushutdownscript
 
-Manly Ubuntu Shutdown Script
+# Manly Ubuntu Shutdown Script
 
-A nice way to shutdown your Ubuntu system.
-(should work on all Ubuntu flavors, Mint and maybe Debian)
+#### A nice way to shutdown your Ubuntu system.
+##### (should work on all Ubuntu flavors, Mint and maybe Debian)
 
-Usage: 
+#### Usage: 
 
-Copy the .bash file somewhere, like your desktop
+* Copy the .bash file somewhere, like your desktop
 
-Make it executable (chmod +x shutdown.bash or right-click->properties)
+* Make it executable (chmod +x shutdown.bash or right-click->properties)
 
-Execute it (./shutdown.bash)
+* Execute it (./shutdown.bash)
 
-Go to sleep, cya tomorrow!
+* Go to sleep, cya tomorrow!
