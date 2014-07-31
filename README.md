@@ -1,7 +1,7 @@
 # Manly Ubuntu Shutdown Script
 
 ### A nice way to shutdown your Ubuntu system.
-##### (should work on all Ubuntu flavors, Mint and maybe Debian)
+####### (should work on all Ubuntu flavors, Mint and maybe Debian)
 
 ### Usage: 
 
