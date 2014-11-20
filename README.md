@@ -7,7 +7,7 @@
 
 ### Usage: 
 
-* Copy the .bash file somewhere, like your desktop
+* Copy the shutdown.bash file somewhere, like your desktop
 
 * Make it executable (chmod +x shutdown.bash or right-click->properties)
 
