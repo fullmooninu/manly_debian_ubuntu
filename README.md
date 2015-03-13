@@ -15,4 +15,4 @@
 
 * Go to sleep, cya tomorrow!
 
-TODO: read all apt-get, finish manly post-install script
+TODO: read all apt-get flags, finish manly post-install script
