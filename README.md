@@ -14,3 +14,5 @@
 * Execute it (./shutdown.bash)
 
 * Go to sleep, cya tomorrow!
+
+TODO: read all apt-get, finish manly post-install script
