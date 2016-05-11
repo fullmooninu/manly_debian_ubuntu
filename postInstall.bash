@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -v
 
+sudo apt-get update
+sudo apt-get install ntp
+sudo apt-get dist-upgrade -y
+
 now, where i put that file with the beta version...?
 
 
@@ -8,14 +12,13 @@ now, where i put that file with the beta version...?
 
 # add repositories if needed
 
+# see if that website has an api of sortes
+
 # dist-update
 
-# install recommended drivers automatically
+# install microcode ?
 
-# dist-upgrade with suggests (test if --install-suggests has the same effect as that @install-suggests option for apt-get)
+# install fonts and other media ubuntu shtuff like restricted extras
 
-# install fonts and other media ubuntu shtuff
+# install shtuff (skype etc, make a list)
 
-# install shtuff (skype etc, make a list) (all with suggests)
-
-# you probably dont want to use ubuntu ppa, deb stuff seems more reliable.
