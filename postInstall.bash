@@ -10,7 +10,7 @@ sudo apt install -y ntp wget curl
 #Stuff nice for machine work
 sudo apt install -y ssh default-jdk-headless default-jre-headless nano lynis glances ncdu
 ##Extra stuff
-sudo apt install -y steam chromium hexchat pidgin workrave
+sudo apt install -y steam chromium-browser hexchat pidgin workrave
 #sudo apt install -y intel-microcode # if not intel disable this!!
 ##Workstuff
 sudo apt install -y idle3
