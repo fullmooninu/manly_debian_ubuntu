@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+##################################
+Run this after you install Linux - Version 2017-09 :)
+##################################
+
+
 set -v
 
 sudo apt-get update
