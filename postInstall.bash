@@ -6,14 +6,18 @@ sudo apt install -y ntp
 sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
 sudo apt install $(check-language-support)
 ##Standard stuff everyone should have
-sudo apt install -y wget curl 
+sudo apt install -y wget curl apt-transport-https
 #Stuff nice for machine work
 sudo apt install -y ssh default-jdk-headless default-jre-headless nano lynis glances ncdu
 ##Extra stuff
 sudo apt install -y steam chromium-browser hexchat pidgin workrave
 #sudo apt install -y intel-microcode # if not intel disable this!!
+
 ##Workstuff
 sudo apt install -y idle3
+#sublime3
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -y -
+
 
 ##Erase old downloaded archive files
 sudo apt-get autoclean -y
