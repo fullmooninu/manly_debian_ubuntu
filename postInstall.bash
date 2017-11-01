@@ -2,12 +2,29 @@
 set -v
 
 sudo apt-get update
-sudo apt-get install ntp
-sudo apt-get dist-upgrade -y
+sudo apt install -y ntp
+sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
+sudo apt install $(check-language-support)
+##Standard stuff everyone should have
+sudo apt install -y ntp wget curl 
+#Stuff nice for machine work
+sudo apt install -y ssh default-jdk-headless default-jre-headless nano lynis glances ncdu
+##Extra stuff
+sudo apt install -y steam chromium hexchat pidgin workrave
+#sudo apt install -y intel-microcode # if not intel disable this!!
+##Workstuff
+sudo apt install -y idle3
 
-now, where i put that file with the beta version...?
+##Erase old downloaded archive files
+sudo apt-get autoclean -y
 
+##Remove automatically all unused packages
+sudo apt-get autoremove -y --purge
 
+##Reboot
+#sudo reboot
+
+##TODO
 # activate all repositories
 
 # add repositories if needed
@@ -15,8 +32,6 @@ now, where i put that file with the beta version...?
 # see if that website has an api of sortes
 
 # dist-update
-
-# install microcode ?
 
 # install fonts and other media ubuntu shtuff like restricted extras
 
