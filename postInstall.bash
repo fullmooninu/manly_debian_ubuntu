@@ -24,10 +24,10 @@ sudo apt-get install -y steam chromium-browser hexchat pidgin ntp workrave
 sudo apt-get install -y idle3 haskell-platform
 
 ##Sublime3 : https://www.sublimetext.com/docs/3/linux_repositories.html
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -y -
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get install -y sublime-text
 ##Keybase https://keybase.io/docs/the_app/install_linux
 if [ ! -f ./keybase_amd64.deb ]; then
   curl -O https://prerelease.keybase.io/keybase_amd64.deb
@@ -35,7 +35,7 @@ if [ ! -f ./keybase_amd64.deb ]; then
   # from the next command, you can ignore it, as the
   # subsequent command corrects it
   sudo dpkg -i keybase_amd64.deb
-  sudo apt-get install -f
+  sudo apt-get install -y -f
   run_keybase
 fi
 
