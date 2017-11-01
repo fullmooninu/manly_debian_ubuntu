@@ -6,11 +6,11 @@ sudo apt install -y ntp
 sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
 sudo apt install $(check-language-support)
 ##Standard stuff everyone should have
-sudo apt install -y wget curl apt-transport-https
+sudo apt install -y wget curl apt-transport-https git
 #Stuff nice for machine work
 sudo apt install -y ssh default-jdk-headless default-jre-headless nano lynis glances ncdu synaptic
 ##Extra stuff
-sudo apt install -y steam chromium-browser hexchat pidgin workrave
+sudo apt install -y steam chromium-browser hexchat pidgin ntp workrave
 #sudo apt install -y intel-microcode # if not intel disable this!!
 
 ##Workstuff
