@@ -10,8 +10,8 @@ sudo apt-get update
 sudo apt-get install -y ntp
 sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
 ##Languages https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-sudo apt-get install language-pack-pt language-pack-fr language-pack-zh-hans language-pack-zh-hant language-pack-ja language-pack-en
-sudo apt-get install $(check-language-support)
+sudo apt-get install -y language-pack-pt language-pack-fr language-pack-zh-hans language-pack-zh-hant language-pack-ja language-pack-en
+sudo apt-get install -y $(check-language-support)
 ##Standard stuff everyone should have
 sudo apt-get install -y apt curl wget apt-transport-https dirmngr
 sudo apt-get install -y build-essential git
