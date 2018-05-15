@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# don't run with sudo or it will install stuff only available to root
+# don't run with sudo or it will install stuff only available to root. Type sudo password as requested.
 ########################################################
 #Run this after you install Linux - Version 2017-11 :)
 ########################################################
