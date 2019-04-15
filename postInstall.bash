@@ -18,7 +18,7 @@ sudo apt-get install -y $(check-language-support)
 sudo apt-get install -y apt curl wget apt-transport-https dirmngr
 sudo apt-get install -y build-essential git
 #Stuff nice for machine work
-sudo apt-get install -y ssh nano lynis glances ncdu synaptic
+sudo apt-get install -y ssh nano lynis glances ncdu synaptic preload
 ##Extra stuff
 sudo apt-get install -y steam chromium-browser hexchat workrave
 #sudo apt-get install -y intel-microcode # if not intel disable this!!
