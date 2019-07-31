@@ -1,13 +1,18 @@
-apt install ntp -y 
-apt install build-essentials -y 
-apt install curl wget apt-transport-https dirmngr -y
-apt install fail2ban -y
-apt install sudo -y
-apt install  ssh -y
+sudo apt-get update
+sudo apt install ntp -y 
+sudo apt-get dist-upgrade -y
 
+sudo apt install build-essentials -y 
+sudo apt install curl wget apt-transport-https dirmngr -y
+sudo apt install fail2ban -y
+sudo apt install sudo -y
+sudo apt install  ssh -y
 
-useradd -m -d /home/ssarah ssarah
-addgroup ssarah sudo
+sudo apt-get autoremove --purge -y
+sudo apt-get autoclean 
+
+#useradd -m -d /home/ssarah ssarah
+#addgroup ssarah sudo
 
 #create user
 #change password access
