@@ -20,7 +20,7 @@ sudo apt-get install -y build-essential git
 #Stuff nice for machine work
 sudo apt-get install -y ssh nano lynis glances ncdu synaptic preload fail2ban
 ##Extra stuff
-sudo apt-get install -y steam chromium-browser hexchat workrave
+sudo apt-get install -y steam hexchat workrave
 #sudo apt-get install -y intel-microcode # if not intel disable this!!
 
 ##Python and java
