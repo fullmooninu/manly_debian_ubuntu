@@ -1,4 +1,4 @@
-# Manly Ubuntu Shutdown Script
+# Manly Debian / Ubuntu Shutdown Script
 
 ### A nice way to shutdown your Ubuntu system.
 * Make it update and clean itself and then shutdown
