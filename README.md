@@ -9,13 +9,11 @@
 
 * Copy the shutdown.bash file somewhere, like your desktop
 
-  * Run with bash shutdown.bash
+* Run with:
+ 
+  * *bash shutdown.bash* , or:
 
-or
-
-  * Make it executable (chmod +x shutdown.bash or right-click->properties)
-
-  * Execute it (./shutdown.bash)
+  * Make it executable (chmod +x shutdown.bash or right-click->properties) and execute it *./shutdown.bash*
 
 * Go to sleep, cya tomorrow!
 
