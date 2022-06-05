@@ -7,6 +7,9 @@ set -v
 sudo apt-get update
 sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
 
+##update snaps
+sudo snap refresh
+
 ##Erase old downloaded archive files
 sudo apt-get autoclean -y
 
