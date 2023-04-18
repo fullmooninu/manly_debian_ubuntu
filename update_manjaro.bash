@@ -18,15 +18,19 @@ fi
 
 # Update AUR packages
 echo "Updating AUR packages..."
-pamac upgrade -a --no-confirm
+pamac upgrade -a --noconfirm
 
-# Install missing language packs
+# Install missing language packs (adjust the search pattern as needed)
 echo "Installing missing language packs..."
-pacman -S --noconfirm $(pacman -Slq | grep language)
+pacman -S --noconfirm $(pacman -Ssq '.*-lang$')
 
 # Find the latest stable kernel version and install/update it
-LATEST_KERNEL=$(pacman -Slq | grep '^linux[0-9]*$' | tail -n 1)
-echo "Installing/updating to the latest non-RC kernel: $LATEST_KERNEL..."
+LATEST_KERNEL=$(pamac search -q -a --list | awk '/^linux[0-9]*\s+\S+\s+\S+-[0-9]+$/ {print $1}' | sort -V | tail -n 1)
+if [ -z "$LATEST_KERNEL" ]; then
+    echo "No stable kernel found. Please check your internet connection or package repositories."
+    exit 1
+fi
+echo "Installing/updating to the latest stable kernel: $LATEST_KERNEL..."
 pacman -S --noconfirm $LATEST_KERNEL
 
 # Remove unused and old packages and dependencies
@@ -34,8 +38,8 @@ echo "Cleaning up old and unused packages..."
 paccache -r
 pacman -Rns $(pacman -Qdtq)
 
-# Optimize Pacman database
+# Optimize Pacman database by cleaning up the package cache
 echo "Optimizing Pacman database..."
-pacman-optimize
+paccache -ruk0
 
 echo "All tasks completed successfully!"
