@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt install ntp -y 
+#sudo apt install ntp -y 
 sudo apt-get dist-upgrade -y
 
 sudo apt install build-essentials -y 
