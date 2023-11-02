@@ -19,5 +19,3 @@
   * Make it executable (chmod +x shutdown.bash or right-click->properties) and execute it *./shutdown.bash*
 
 * Go to sleep, cya tomorrow!
-
-TODO: read all apt-get flags, finish manly post-install script
