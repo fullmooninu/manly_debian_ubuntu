@@ -2,14 +2,14 @@
 
 # don't run with sudo or it will install stuff only available to root. Type password as requested.
 ########################################################
-#Run this after you install Linux - Version 2018-05 :)
+#Run this after you install Debian - Version 2018-05 :)
 ########################################################
 
 
 set -v
 
 sudo apt-get update
-sudo apt-get install -y ntp
+#sudo apt-get install -y ntp #no longer neccessary? #TODO check
 sudo apt-get dist-upgrade -y --fix-missing --fix-broken --purge
 ##Languages https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 sudo apt-get install -y language-pack-pt language-pack-fr language-pack-zh-hans language-pack-zh-hant language-pack-ja language-pack-en
