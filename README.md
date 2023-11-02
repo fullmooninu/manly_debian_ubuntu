@@ -1,3 +1,6 @@
+## This started out as a simple script that that I would run manually weekly to update and reboot my machine.
+## Now it's a collection of scripts useful for clients and servers.
+
 # Manly Debian / Ubuntu Shutdown Script
 
 ### A nice way to shutdown your Ubuntu system.
